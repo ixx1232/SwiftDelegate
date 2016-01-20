@@ -13,6 +13,7 @@
 		18FA0CC51C4F874A007C8489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FA0CC41C4F874A007C8489 /* Assets.xcassets */; };
 		18FA0CC81C4F874A007C8489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FA0CC61C4F874A007C8489 /* LaunchScreen.storyboard */; };
 		18FA0CD31C4F874A007C8489 /* SwiftDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0CD21C4F874A007C8489 /* SwiftDelegateTests.swift */; };
+		18FA0CDE1C4F8A0D007C8489 /* IXXTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0CDD1C4F8A0D007C8489 /* IXXTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		18FA0CCE1C4F874A007C8489 /* SwiftDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FA0CD21C4F874A007C8489 /* SwiftDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDelegateTests.swift; sourceTree = "<group>"; };
 		18FA0CD41C4F874A007C8489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FA0CDD1C4F8A0D007C8489 /* IXXTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IXXTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				18FA0CBD1C4F874A007C8489 /* AppDelegate.swift */,
 				18FA0CBF1C4F874A007C8489 /* ViewController.swift */,
+				18FA0CDD1C4F8A0D007C8489 /* IXXTableVC.swift */,
 				18FA0CC11C4F874A007C8489 /* Main.storyboard */,
 				18FA0CC41C4F874A007C8489 /* Assets.xcassets */,
 				18FA0CC61C4F874A007C8489 /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA0CDE1C4F8A0D007C8489 /* IXXTableVC.swift in Sources */,
 				18FA0CC01C4F874A007C8489 /* ViewController.swift in Sources */,
 				18FA0CBE1C4F874A007C8489 /* AppDelegate.swift in Sources */,
 			);
